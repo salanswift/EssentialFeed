@@ -30,7 +30,7 @@
       <Testables>
          <TestableReference
             skipped = "NO"
-            parallelizable = "YES">
+            testExecutionOrdering = "random">
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2EEEE72126A5D8B200F1280F"
@@ -38,65 +38,11 @@
                BlueprintName = "EssentialFeedTests"
                ReferencedContainer = "container:EssentialFeed.xcodeproj">
             </BuildableReference>
-            <SelectedTests>
+            <SkippedTests>
                <Test
-                  Identifier = "EssentialFeedTests/testExample()">
+                  Identifier = "URLSessionHTTPClientTests/test_getFromURL_failsOnALLInvalidRepresentationCases()">
                </Test>
-               <Test
-                  Identifier = "EssentialFeedTests/testPerformanceExample()">
-               </Test>
-               <Test
-                  Identifier = "RemoteFeedLoaderTests/test_deliversErrorOnClientError()">
-               </Test>
-               <Test
-                  Identifier = "RemoteFeedLoaderTests/test_deliversErrorOnNon200HttpResponse()">
-               </Test>
-               <Test
-                  Identifier = "RemoteFeedLoaderTests/test_init_doesNotRequestDataFromURL()">
-               </Test>
-               <Test
-                  Identifier = "RemoteFeedLoaderTests/test_loadTwice_requestsDataFromURLTwice()">
-               </Test>
-               <Test
-                  Identifier = "RemoteFeedLoaderTests/test_load_DoesNotDeliverAfterSUTInstanceHasBeenDeallocated()">
-               </Test>
-               <Test
-                  Identifier = "RemoteFeedLoaderTests/test_load_deliverErrorsOn200HttpResponseWithEJSONItems()">
-               </Test>
-               <Test
-                  Identifier = "RemoteFeedLoaderTests/test_load_deliverErrorsOn200HttpResponseWithEmptyJSONList()">
-               </Test>
-               <Test
-                  Identifier = "RemoteFeedLoaderTests/test_load_deliverErrorsOn200HttpResponseWithInvalidJSON()">
-               </Test>
-               <Test
-                  Identifier = "RemoteFeedLoaderTests/test_load_requestsDataFromURL()">
-               </Test>
-               <Test
-                  Identifier = "URLSessionHTTPClientTests/test_getFromURL_createsDataTaskWithURL()">
-               </Test>
-               <Test
-                  Identifier = "URLSessionHTTPClientTests/test_getFromURL_failOnRequestError()">
-               </Test>
-               <Test
-                  Identifier = "URLSessionHTTPClientTests/test_getFromURL_failsOnAllInvalidRepresentationCases()">
-               </Test>
-               <Test
-                  Identifier = "URLSessionHTTPClientTests/test_getFromURL_failsOnRequestError()">
-               </Test>
-               <Test
-                  Identifier = "URLSessionHTTPClientTests/test_getFromURL_performGETRequestWithURL()">
-               </Test>
-               <Test
-                  Identifier = "URLSessionHTTPClientTests/test_getFromURL_resumesDataTaskWithURL()">
-               </Test>
-               <Test
-                  Identifier = "URLSessionHTTPClientTests/test_getFromURL_succeedsOnHTTPURLResponseWithData()">
-               </Test>
-               <Test
-                  Identifier = "URLSessionHTTPClientTests/test_getFromURL_succeedsWithEmptyDataOnHTTPURLResponseWithNilData()">
-               </Test>
-            </SelectedTests>
+            </SkippedTests>
          </TestableReference>
       </Testables>
    </TestAction>
