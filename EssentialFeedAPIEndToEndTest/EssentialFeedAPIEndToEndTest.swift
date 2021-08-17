@@ -27,7 +27,7 @@ class EssentialFeedAPIEndToEndTest: XCTestCase {
             receivedResult = result
             exp.fulfill()
         }
-        wait(for: [exp], timeout: 10.0)
+        wait(for: [exp], timeout: 5.0)
             
         switch receivedResult {
         case let .success(item)?:
